@@ -14,19 +14,21 @@
 
 
                         <p>
-                            {{ $movie['title'] }}
+                            <strong>title: </strong>{{ $movie->title }}
 
                         </p>
                         <p>
-                            {{ $movie['nationapty'] }}
+                            <strong>vote: </strong>
+                            {{ $movie->vote }}
 
                         </p>
                         <p>
-                            {{ $movie['date'] }}
+                            <strong>data: </strong>
+                            {{ $movie->date }}
 
                         </p>
                         <p>
-                            <img src=" {{ $movie['image'] }} " alt="">
+                            <img src=" {{ $movie->image }} " alt="">
                         </p>
 
 
